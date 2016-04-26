@@ -67,52 +67,27 @@
 
      <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
+        
+        <div class="container-fluid ">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2>Our Work</h2>
+          <hr class="small">
+             <div class="row">
+                        <div class="col-md-12">
+                            <div class="parallax-thumbnail" style="background-image: url()">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="Images/portfolio-1.jpg">
+                                    
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="Images/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="Images/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="Images/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a id="btnViewMore" href="#ViewMore" onclick = $("#btnViewMore").click(); class="btn btn-dark">View More</a>
-                </div>
-                <!-- /.col-lg-10 -->
+             </div>           
+         </div>
             </div>
-            <!-- /.row -->
-        </div>
+            <!-- /.row -->        
         <!-- /.container -->
     </section>
     
-     <!-- View More -->
+     <!-- View More 
      <section id="ViewMore" class="Viewmore">
         <div class="container">
             <div class="row">
@@ -152,7 +127,7 @@
             </div>
         </div>
     </section>
-
+   -->
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
@@ -243,7 +218,7 @@
    <!-- Callout -->
    <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1 style="color: black" >Blissfully Done</h1>
         </div>
     </aside>
 
@@ -276,7 +251,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Contact</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -400,10 +375,10 @@
     });
     
     //scroll to show more items when View more is clicked
-    $("#btnViewMore").click(function(e){
-        e.preventDefault();
-        $("Viewmore").toggleclass("active");  
-    });
+   // $("#btnViewMore").click(function(e){
+   //     e.preventDefault();
+  //      $("Viewmore").toggleclass("active");  
+  //  });
     </script>
 
 </body>
