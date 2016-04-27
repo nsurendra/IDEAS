@@ -246,3 +246,41 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+.parallax-thumbnail {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 750px;
+    margin-top: .4rem;
+}
+
+.blog-thumbnail {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+[class*="block-grid-"] {
+    display: block;
+    padding: 0;
+    margin: 0 -0.46875rem;
+}
+
+#recent-blog-posts [class*="block-grid-"]>li {
+    display: block;
+    height: auto;
+    float: left;
+    padding: 0.46875rem;
+}
