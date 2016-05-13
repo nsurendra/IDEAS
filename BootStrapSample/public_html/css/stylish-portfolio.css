@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
 }
 
 .text-vertical-center {
@@ -213,7 +214,7 @@ hr.small {
 /*View More */
 .Viewmore
 {
-   display: none;
+    display: none;
 }
 .Viewmore.active
 {
@@ -260,77 +261,77 @@ footer {
     width: 100%;
 }
 .Portfolio-thumbnail > div {
-	display: table;
-	height: 100%;
-	width: 100%;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 .Portfolio-thumbnail div a,
 .Portfolio-thumbnail div a:hover
 .Portfolio-thumbnail > div > div span {
-	color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7);
 }
 
 .Portfolio-thumbnail > div a,
 .Portfolio-thumbnail > div > div
 {
-	display: table-cell;
-	opacity: 1;
-	vertical-align: middle;
-	transition: 		all .15s;
-   -moz-transition: 	all .15s;
-   -webkit-transition: 	all .15s;
+    display: table-cell;
+    opacity: 1;
+    vertical-align: middle;
+    transition: 		all .15s;
+    -moz-transition: 	all .15s;
+    -webkit-transition: 	all .15s;
 }
 
 .Portfolio-thumbnail > div a span,
 .Portfolio-thumbnail > div > div span {
-	font-size: 3rem;
+    font-size: 3rem;
 }
 .Portfolio-thumbnail > div > div span {
-	display: block;
-	margin: auto;
-	max-width: 80%;
+    display: block;
+    margin: auto;
+    max-width: 80%;
 }
 
 #recent-blog-posts .row .columns {
-	padding-left: 0.9375rem;
-		padding-right: 0.9375rem;
-		padding-top: 0.9375rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-top: 0.9375rem;
 }
 
 #recent-blog-posts .row .columns:first-child {
-	padding-left: 0.9375rem;
-		padding-right: 0.9375rem;
-		padding-top: 0.9375rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-top: 0.9375rem;
 }
 
 [class*="block-grid-"] {
-	display: block;
-	padding: 0;
-	margin: 0 -0.46875rem;
+    display: block;
+    padding: 0;
+    margin: 0 -0.46875rem;
 }
 
 #recent-blog-posts [class*="block-grid-"]>li {
-	float: left;
-		width: 50%;
-		padding: 0.46875rem 0.46875rem;
+    float: left;
+    width: 50%;
+    padding: 0.46875rem 0.46875rem;
 }
 
 .blog-thumbnail {
-	background-position: center center;
-	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
-	display: block;
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-        margin-bottom: 1rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .blog-thumbnail:after {
-	content: "";
+    content: "";
     display: block;
     padding-top: 100%;
 }
@@ -346,31 +347,129 @@ footer {
 .blog-thumbnail > div > div
 {
 
-	display: table;
-	height: 100%;
-	width: 100%;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .blog-thumbnail > div a {
-	display: table-cell;
-	opacity: 1;
-	vertical-align: middle;
-	transition: 		all .15s;
-   -moz-transition: 	all .15s;
-   -webkit-transition: 	all .15s;
+    display: table-cell;
+    opacity: 1;
+    vertical-align: middle;
+    transition: 		all .15s;
+    -moz-transition: 	all .15s;
+    -webkit-transition: 	all .15s;
 }
 
 
 
 .blog-thumbnail > div a span {
-	opacity: 1;
-	transition: 		all .15s;
-   -moz-transition: 	all .15s;
-   -webkit-transition: 	all .15s;	
+    opacity: 1;
+    transition: 	all .15s;
+    -moz-transition: 	all .15s;
+    -webkit-transition: 	all .15s;	
 }
 
 
 .blog-thumbnail > div a span {
-	font-size: 1.5rem;
+    font-size: 1rem;
 }
 
+.blog-thumbnail div a {
+    font-family: 'Futura Light';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a 
+{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+.blog-thumbnail div a, .blog-thumbnail div a:hover {
+    color: rgba(255,255,255,.7);
+}
+
+#gallery-slideshow {
+    position: relative;
+    margin: auto;
+}
+
+#gallery-slideshow #next-prev {
+    background: rgba(255,255,255,.4);
+    padding: 25px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+}
+
+#gallery-slideshow #next-prev a {
+    color: rgb(255,255,255);
+    margin-left: 25px;
+}
+
+#gallery-slideshow #next-prev a:first-child {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.row .gallery-nav {
+    margin: 30px 0px;	
+}
+
+.gallery-nav .columns > div {
+    position: relative;
+    z-index: 1; 
+}
+
+.gallery-nav .columns > div:before {
+    border-top: 1px solid rgb(243,243,243);
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 9px; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    z-index: -1;	
+}
+
+.gallery-nav .menu-gallery-menu-container {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-nav ul.menu {
+    background: rgb(255,255,255);
+    display: inline-block;
+    text-align: center;	
+    padding: 0px 10px;
+}
+
+.gallery-nav .menu-gallery-menu-container ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+body.page-weddings .gallery-nav li.weddings a,
+body.page-connection .gallery-nav li.connection a, 
+body.page-boudoir .gallery-nav li.boudoir a  {
+    color: rgb(77,77,77);
+}
+
+.row.associate-info {
+    margin-top: 30px;
+}
+
+.container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+    padding-top: 5px
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
